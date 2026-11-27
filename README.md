@@ -4,7 +4,9 @@ Run all of **Gemma 4 31B (dense)** on the **Apple Neural Engine (ANE)** of a 32 
 draft model on the GPU for speculative decoding. On a Mac mini (M6, 32 GB) it generates faster than the GPU
 (MLX, llama.cpp), prefills about as fast, and uses roughly half the energy per token.
 
-[中文说明](README_zh.md) · Model weights: Hugging Face (coming soon) · Engineering notes: [docs/](docs/)
+> Research release from Luoke Labs: an experiment in running a 31B model on the ANE, not a model used in our products.
+
+[中文说明](README_zh.md) · Model weights: [Hugging Face](https://huggingface.co/luokelabs/gemma-4-31B-it-ane-16k-research) · Engineering notes: [docs/](docs/)
 
 | Mac mini M6 32 GB, greedy | ANE (this repo) | GPU, MLX 4-bit | GPU, llama.cpp Q4_0 |
 |---|---|---|---|

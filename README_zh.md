@@ -3,7 +3,9 @@
 把 **Gemma 4 31B（稠密）** 完整放到 32 GB Mac 的 **ANE** 上，通过 Core AI 运行，并用 Google 官方 MTP 草稿模型在 GPU 上做推测解码。
 在 Mac mini（M6，32 GB）上：生成比 GPU（MLX、llama.cpp）快，预填和 GPU 持平，每个 token 耗电约为 GPU 的一半以下。
 
-[English](README.md) · 模型权重：Hugging Face（即将上传） · 工程笔记：[docs/](docs/)
+> 螺壳实验室的研究性发布：验证 31B 模型能否跑在 ANE 上，不是螺壳产品中使用的模型。
+
+[English](README.md) · 模型权重：[Hugging Face](https://huggingface.co/luokelabs/gemma-4-31B-it-ane-16k-research) · 工程笔记：[docs/](docs/)
 
 | Mac mini M6 32 GB，贪心解码 | ANE（本项目） | GPU，MLX 4 位 | GPU，llama.cpp Q4_0 |
 |---|---|---|---|

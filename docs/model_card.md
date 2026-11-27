@@ -13,9 +13,13 @@ tags:
 - macos
 - quantized
 - speculative-decoding
+- research
 ---
 
-# Gemma 4 31B IT for the Apple Neural Engine (16K context)
+# Gemma 4 31B IT for the Apple Neural Engine (16K context), research release
+
+> Research release from Luoke Labs: an experiment in running a 31B model on the ANE, not a model used in our products.
+> No support or update guarantees.
 
 All of Gemma 4 31B (dense, instruction-tuned) compiled for the **Apple Neural Engine** through **Core AI** (macOS 27),
 quantized to ~3.8 bits per weight. Runs on a 32 GB Apple silicon Mac with the code at
