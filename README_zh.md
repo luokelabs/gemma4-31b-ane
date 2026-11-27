@@ -46,6 +46,7 @@ export MTP_MLX=$PWD/models/gemma-4-31B-it-qat-assistant-4bit-mlx
 ```
 
 第一次加载要为 ANE 编译（几分钟，每个 macOS 版本一次），之后几秒加载完。
+下载卡住时，中断后重新运行 `scripts/download.sh` 即可，已下完的文件会跳过。
 
 测速（带 MTP 时设 `PREWARM_MS=95 MLX_CACHE=268435456 WARM=30 ND_ZH=3`，与上表一致）：
 

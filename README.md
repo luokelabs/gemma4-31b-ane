@@ -51,6 +51,7 @@ export MTP_MLX=$PWD/models/gemma-4-31B-it-qat-assistant-4bit-mlx
 ```
 
 The first load compiles the model for the ANE (several minutes, once per macOS build). Later loads take seconds.
+If the download stalls, stop it and rerun `scripts/download.sh`: files already fetched are skipped.
 
 Benchmark like the tables above:
 
