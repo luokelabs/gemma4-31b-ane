@@ -35,7 +35,8 @@ Details, methods and caveats: [docs/results.md](docs/results.md).
 ## Requirements
 
 - Apple silicon Mac with **32 GB** of memory (the ANE keeps ~20–23 GB wired; 24 GB machines do not fit).
-- macOS 27 with Core AI, Xcode command line tools (`swiftc`), Python 3.13.
+- macOS 27 with Core AI, Xcode command line tools (`swiftc`), Python 3.13 (`brew install python@3.13`, or have
+  [uv](https://docs.astral.sh/uv/) installed and `setup.sh` fetches it).
 - ~16 GB of disk for the model plus 20–30 GB for the Core AI compile cache. Keep 30+ GB free: when the disk runs low,
   macOS evicts freshly compiled programs and loading fails with `nilError` (run `fix_cache.py <model_dir>`).
 

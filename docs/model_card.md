@@ -47,7 +47,8 @@ export MTP_MLX=$PWD/models/gemma-4-31B-it-qat-assistant-4bit-mlx
 .venv/bin/python chat.py models/gemma-4-31B-it-ane-16k
 ```
 
-Requires a 32 GB Apple silicon Mac, macOS 27 with Core AI, and 30+ GB of free disk for the compile cache.
+Requires a 32 GB Apple silicon Mac, macOS 27 with Core AI, Xcode command line tools, Python 3.13
+(`brew install python@3.13`, or have [uv](https://docs.astral.sh/uv/) installed), and 30+ GB of free disk for the compile cache.
 The first load compiles the model for the ANE (several minutes, once per macOS build).
 These are Core AI `.aimodel` packages; they do not load in transformers, MLX, or llama.cpp.
 

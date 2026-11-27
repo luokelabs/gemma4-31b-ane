@@ -32,7 +32,7 @@
 ## 环境要求
 
 - **32 GB** 内存的 Apple 芯片 Mac（ANE 常驻约 20–23 GB；24 GB 机型装不下）。
-- macOS 27（带 Core AI）、Xcode 命令行工具（`swiftc`）、Python 3.13。
+- macOS 27（带 Core AI）、Xcode 命令行工具（`swiftc`）、Python 3.13（`brew install python@3.13`，或装好 [uv](https://docs.astral.sh/uv/)，`setup.sh` 会自动获取）。
 - 模型约 16 GB，加上 Core AI 编译缓存 20–30 GB。请保持 30 GB 以上空闲：磁盘不足时系统会清掉刚编译的缓存，加载时报 `nilError`（运行 `fix_cache.py <模型目录>`）。
 
 ## 快速开始
