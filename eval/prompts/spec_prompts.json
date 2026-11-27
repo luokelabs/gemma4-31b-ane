@@ -1,0 +1,18 @@
+[
+ ["code", "Write a Python function that returns the n-th Fibonacci number, with a short docstring."],
+ ["code", "Write a JavaScript function that debounces another function, and explain the parameters briefly."],
+ ["code", "Implement binary search in C++ over a sorted std::vector<int> and return the index or -1."],
+ ["code", "Write a SQL query that returns the top 5 customers by total order amount from tables customers(id, name) and orders(id, customer_id, amount)."],
+ ["zh", "用三句话解释为什么天空是蓝色的。"],
+ ["zh", "请写一段 100 字左右的介绍,说明番茄炒蛋怎么做。"],
+ ["zh", "简单解释一下什么是机器学习,以及它和传统编程的区别。"],
+ ["zh", "给一个刚上大学的学生写五条时间管理建议。"],
+ ["math", "A train travels 120 km in 1.5 hours. What is its average speed in km/h? Show the steps."],
+ ["math", "Solve for x: 3x + 7 = 22. Explain each step."],
+ ["math", "If you flip a fair coin three times, what is the probability of getting exactly two heads? Show your reasoning."],
+ ["math", "What is the sum of the integers from 1 to 100? Explain the trick."],
+ ["en", "Explain how a hash table works to a beginner programmer."],
+ ["en", "Write a short email to a colleague asking to reschedule tomorrow's meeting to Friday."],
+ ["en", "Summarize the causes of the French Revolution in one paragraph."],
+ ["en", "What are the main differences between TCP and UDP?"]
+]

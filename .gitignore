@@ -1,0 +1,8 @@
+.venv/
+third_party/
+models/
+work/
+logs/
+__pycache__/
+*.pyc
+.DS_Store

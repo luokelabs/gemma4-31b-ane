@@ -1,0 +1,18 @@
+# tested on macOS 27.0.1 (26A434), Python 3.13, Mac mini M6 32 GB
+coreai-core==1.0.0b2
+coreai-torch==0.4.2
+coreai-opt==0.2.1
+torch==2.11.0
+numpy==2.3.5
+transformers==5.12.1
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface_hub>=1.19
+mlx==0.32.4
+pyarrow>=20
+# runtime imports of mlx-vlm (installed without its deps)
+requests==2.34.2
+pillow==13.0.0
+tqdm==4.70.1
+jinja2==3.1.6
+# + mlx-vlm==0.7.12 installed with --no-deps by scripts/setup.sh (MTP drafter only)
